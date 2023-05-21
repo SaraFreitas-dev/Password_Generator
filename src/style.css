@@ -50,11 +50,17 @@ h2{
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 7%;
+}
+
+span, label{
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #result{
     flex:1;
-    background: #e2edfa;
+    background: #c0dbf9;
 }
 
 /*BUTTON COPY*/
@@ -80,9 +86,11 @@ h2{
 }
 
 input[type="text"]{
-    padding: 20px 24px;
+    padding: 20px 50px;
     border: 1px solid #cdb5e1;
     border-radius: 50px;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input [type="range"]{
