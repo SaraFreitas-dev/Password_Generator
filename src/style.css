@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #73d1e1, #3b82f6 );
+}
+
+.container{
+    max-width: 390px;
+    margin: 5rem auto;
+    padding: 26px;
+    border-radius: 29px;
+    background: linear-gradient(to right, #73a3e1, #483bf6 );
+    box-shadow: 0 50px 40px -9px rgba(34, 25, 80, 0.2),
+              0 26px 22px -12px rgba(24, 19, 60, 0.2);        
+}
+
+.result-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#result{
+    flex:1;
+    background: #e2edfa;
+}
+
+/*BUTTON COPY*/
+.copy-result{
+    background-image: linear-gradient(to right, #2106d4, #3b82f6)!important;
+    border: none;
+    padding: 14px 18px;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 16px;
+    position: absolute;
+    right: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 50;
+    font-size: .8rem; 
+}
+
+.copy-result:hover{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 /0.1),
+    0 4px 6px -4px rgb(0 0 0 /0.1);
+    background: #3b82f6 !important;
+}
+
+input[type="text"]{
+    padding: 20px 24px;
+    border: 1px solid #cdb5e1;
+    border-radius: 50px;
+}
+
+input [type="range"]{
+    padding: 8px 10px;
+    background: #f8f8f8;
+    flex: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+input [type="text"]:focus,
+input [type="number"]:focus{
+    border: 1px solid #06b6d4;
+}
+
+input [type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+.settings{
+    margin-top: 3rem;
+}
+
+.input-group{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*BUTTON GENERATE*/
+.generate-btn{
+    background-image: linear-gradient(to right, #2106d4, #3b82f6)!important;
+    border: none;
+    padding: 14px 24px;
+    font-weight: 600;
+    color:#fff;
+    display: block;
+    width: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+
+.generate-btn:hover{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 /0.1),
+    0 4px 6px -4px rgb(0 0 0 /0.1);
+    background: #3b82f6 !important;
+}
+
+.alert{
+    
+}
