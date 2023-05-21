@@ -108,6 +108,12 @@ input [type="checkbox"]{
     background: #3b82f6 !important;
 }
 
+/*In JS*/
 .alert{
-    
+    position: fixed;
+    top: 6px;
+    right: 6px;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgb(0,0,0,0.4);
 }
