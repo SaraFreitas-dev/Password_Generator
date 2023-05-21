@@ -24,9 +24,12 @@ passLengthResult.innerText = event.target.value;
 })
 
 //Listen for copy button
-copyPass.addEventListener("click", ()=>{
-    copy(result.value);
-})
+copyPass.addEventListener("click", () => {
+    const generatedPassword = result.value;
+    navigator.clipboard.writeText(generatedPassword)
+
+  });
+  
 
 generatePass.addEventListener("click", ()=>{
     const length = passLength.value;
