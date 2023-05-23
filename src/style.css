@@ -35,6 +35,7 @@ h2{
     }
 }
 
+
 .container{
     max-width: 390px;
     margin: 5rem auto;
@@ -107,9 +108,11 @@ input [type="number"]:focus{
 }
 
 input [type="checkbox"]{
-    width: 16px;
-    height: 16px;
+    width: 55px;
+    height: 55px;
 }
+
+
 
 .settings{
     margin-top: 3rem;
@@ -152,3 +155,31 @@ input [type="checkbox"]{
     border-radius: 4px;
     background: rgb(0,0,0,0.4);
 }
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 7%;
+}
+
+.img-container img{
+    height: 30%;
+    width: 30%;
+}
+
+.img-container img:hover {
+    transform-origin: center;
+    animation: rotateAnimation 2s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
