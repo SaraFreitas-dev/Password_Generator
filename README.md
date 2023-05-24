@@ -46,3 +46,4 @@ License
 <p>All rights reserved.</p>
 
 </div>
+# QR_Code_Generator
