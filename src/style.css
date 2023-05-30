@@ -46,6 +46,10 @@ h2{
               0 26px 22px -12px rgba(24, 19, 60, 0.2);        
 }
 
+.border{
+    margin: 1.3rem;
+}
+
 .result-container{
     display: flex;
     align-items: center;
